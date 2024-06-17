@@ -1,0 +1,144 @@
+.navbar-collapse {
+  background: #343a40;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0 !important;
+}
+
+/* General styles */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+nav {
+  height: 7vh;
+}
+
+#page-content {
+  height: 93vh;
+  width: 100%;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0;
+  color: white;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styles */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer styles */
+.card-footer {
+  text-align: center;
+}
+
+/* About page styles */
+.about-container {
+  padding: 3rem;
+  background-color: #f8f9fa;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+.about-header p {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  line-height: 1.8;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.team-member {
+  max-width: 300px;
+  margin: 1rem;
+  text-align: center;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #777;
+}
